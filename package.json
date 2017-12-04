@@ -1,17 +1,18 @@
 {
-  "name": "react_scaffold",
+  "name": "test-firebase",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node server",
-    "dev" : "concurrently \"node server\" \"webpack -w\""
+    "start": "node server",
+    "dev": "concurrently \"node server\" \"webpack -w\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Jair Pérez",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.2",
+    "firebase": "^4.7.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
